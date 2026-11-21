@@ -15,42 +15,48 @@
 				var t = localStorage.getItem('bf-theme');
 				if (t) document.documentElement.dataset.theme = t;
 			} catch (e) {}
+			// Chrome fires this once, often before the app has started: keep it for the Install button.
+			window.addEventListener('beforeinstallprompt', function (e) {
+				e.preventDefault();
+				window.__installPrompt = e;
+				window.dispatchEvent(new Event('bf-installable'));
+			});
 		</script>
-		<link href="../../../_app/immutable/entry/start.u7LB8doB.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/es0y8_NP.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DZsQ0Nyf.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DkrxXqF6.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DUsq14rO.js" rel="modulepreload">
+		<link href="../../../_app/immutable/entry/start.BnnRTqaM.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Bl61cpyS.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/vW6VN5Qh.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DSPjit59.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/e5QL3F56.js" rel="modulepreload">
 		<link href="../../../_app/immutable/chunks/-UyI9lYi.js" rel="modulepreload">
-		<link href="../../../_app/immutable/entry/app.C_LKqROQ.js" rel="modulepreload">
+		<link href="../../../_app/immutable/entry/app.BKWUYz-E.js" rel="modulepreload">
 		<link href="../../../_app/immutable/chunks/C1FmrZbK.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/CHhVmowv.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/TxwS1h09.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DE4IEZmH.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/C3DcWLoD.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/CZlIfJLa.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DKXlRqE-.js" rel="modulepreload">
-		<link href="../../../_app/immutable/nodes/0.tomuocW8.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/10IJd8p-.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DPNiEAWJ.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DSH-jLwb.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DR7IztXV.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/-rU4ZA7a.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BambkfTU.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DOcm_yNY.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BIEGSPm0.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CBhceCsT.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CRH5eGmM.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/hrL2dkG3.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/0.BF2oFX_5.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B-KfEnJn.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/1OeRvOeB.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dv03zgyT.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/D_LknznS.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BAH-yhr6.js" rel="modulepreload">
 		<link href="../../../_app/immutable/chunks/CgTTsW43.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/RAuuKtd9.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DOwhjvmL.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DQrNhoZ-.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CaaXsglp.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/fJEJLd8I.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/G9pt7de0.js" rel="modulepreload">
 		<link href="../../../_app/immutable/chunks/DgmYpV__.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/D0UL4iK0.js" rel="modulepreload">
-		<link href="../../../_app/immutable/nodes/3.CIL6lHkQ.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DfWSKNIJ.js" rel="modulepreload">
-		<link href="../../../_app/immutable/nodes/13.BcEdqUY3.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/CWI9C1Vs.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/C72id6dQ.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/3.CMWqyIAh.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/D5a2awls.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/13.BUPIqBBh.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B4jwDTGa.js" rel="modulepreload">
 		<link href="../../../_app/immutable/chunks/C4VHe3sm.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/grp5gAg2.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/DUmVEqA1.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/FNFGPLIh.js" rel="modulepreload">
-		<link href="../../../_app/immutable/chunks/uRAugANG.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/-0xFsGdm.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DDJvEQ3A.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DQS8Y4wb.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CgTW7tY6.js" rel="modulepreload">
 		<!--12qhfyh--><!--[0--><link rel="manifest" href="/manifest.webmanifest"/><!--]--><!----><!--o7ahtv--><!----><title>Recipe Ratios | Brighter Future Math Lab</title>
 		<link href="../../../_app/immutable/assets/0.CXJ-clWK.css" rel="stylesheet">
 		<link href="../../../_app/immutable/assets/3.DbeBdbHI.css" rel="stylesheet">
@@ -61,15 +67,15 @@
 			
 			<script>
 				{
-					__sveltekit_1vh79av = {
+					__sveltekit_16a9zww = {
 						base: new URL("../../..", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../../../_app/immutable/entry/start.u7LB8doB.js"),
-						import("../../../_app/immutable/entry/app.C_LKqROQ.js")
+						import("../../../_app/immutable/entry/start.BnnRTqaM.js"),
+						import("../../../_app/immutable/entry/app.BKWUYz-E.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3, 13],
