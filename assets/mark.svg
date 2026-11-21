@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+	<!-- Moroni High mark: an M rising out of the lagoon with the sun in its valley -->
+	<circle cx="256" cy="176" r="40" fill="#ffc233"/>
+	<path d="M138 348V170l118 128 118-128v178" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+	<path d="M130 404q32-24 63 0t63 0 63 0 63 0" fill="none" stroke="#2bb7ff" stroke-width="20" stroke-linecap="round"/>
+</svg>
