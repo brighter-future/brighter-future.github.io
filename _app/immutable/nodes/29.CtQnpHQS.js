@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/D3zazKFk.js";import{e as t,$ as i}from"../chunks/C-avbGBS.js";import{h as r}from"../chunks/Du3_tVVf.js";import{Q as e}from"../chunks/DDwwW9er.js";function s(o){r("1ti6w3w",m=>{t(()=>{i.title="New quiz | Moroni High"})}),e(o,{})}export{s as component};
