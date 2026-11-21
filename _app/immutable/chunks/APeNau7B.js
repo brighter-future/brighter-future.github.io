@@ -1,1 +1,0 @@
-import{z as e}from"./DMEm772Q.js";const c="bf-course-v1";function a(){try{return JSON.parse(localStorage.getItem(c)??"{}")}catch{return{}}}const o=e(a()),n=(r,t)=>(o[r]??[]).includes(t);function i(r,t){if(!n(r,t)){o[r]=[...o[r]??[],t];try{localStorage.setItem(c,JSON.stringify(o))}catch{}}}export{o as c,n as i,i as m};
