@@ -1,1 +1,0 @@
-import{u as o,y as r}from"./CiOu0fBl.js";const s=o({busy:0});function u(){r(()=>s.busy+=1);let e=!1;return()=>{e||(e=!0,r(()=>s.busy-=1))}}const i=()=>s.busy>0,a=new Set;function c(e){return a.add(e),()=>a.delete(e)}async function y(){const e=Promise.allSettled([...a].map(async t=>t()));await Promise.race([e,new Promise(t=>setTimeout(t,2e3))])}export{c as b,i,u as m,y as r};
